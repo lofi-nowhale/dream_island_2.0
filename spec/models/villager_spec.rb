@@ -10,6 +10,10 @@ RSpec.describe Villager, type: :model do
   end
 
   describe 'validations' do
-  
+    it { should validate_presence_of :name }
+    it { should validate_presence_of :personality }
+    it { should validate_presence_of :friendship_level }
+    it { should allow_value(true).for(:dream_home )}
+    it { should allow_value(false).for(:dream_home )}
   end
 end
