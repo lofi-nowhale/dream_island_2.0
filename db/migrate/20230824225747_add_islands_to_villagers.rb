@@ -1,0 +1,5 @@
+class AddIslandsToVillagers < ActiveRecord::Migration[7.0]
+  def change
+    add_reference :villagers, :island, null: false, foreign_key: true
+  end
+end
