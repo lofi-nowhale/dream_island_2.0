@@ -20,16 +20,16 @@ duck_pond.villagers.create!(name: 'Drake', personality: "lazy", friendship_level
 duck_pond.villagers.create!(name: 'Bill', personality: "jock", friendship_level: 5, dream_home: false )
 
 bear_den.villagers.create!(name: 'Beardo', personality: "smug", friendship_level: 6, dream_home: true )
-bear_den.villagers.create!(name: 'Talk to Me', personality: 2301, friendship_level: , dream_home: )
+bear_den.villagers.create!(name: 'Megan', personality: "normal", friendship_level: 1, dream_home: false)
 
-flamingo_flamboyance.villagers.create!(name: '26', personality: 940, friendship_level: , dream_home: )
-flamingo_flamboyance.villagers.create!(name: 'Vagabond', personality: 240, friendship_level: , dream_home: )
+flamingo_flamboyance.villagers.create!(name: 'Flora', personality: "peppy", friendship_level: 6, dream_home: false )
+flamingo_flamboyance.villagers.create!(name: 'Phoebe', personality: "big sister", friendship_level: 2, dream_home: false)
 
-koala_colony.villagers.create!(name: 'Aint No Bread In The Breadbox', personality: 540, friendship_level: , dream_home: )
-koala_colony.villagers.create!(name: 'The Harder They Come', personality: 240, friendship_level: , dream_home: )
+koala_colony.villagers.create!(name: 'Yuka', personality: "snooty", friendship_level: 4, dream_home: true)
+koala_colony.villagers.create!(name: 'Gonzo', personality: "cranky", friendship_level: 1, dream_home: false)
 
-dog_park.villagers.create!(name: 'bury a friend', personality: 340, friendship_level: , dream_home: )
-dog_park.villagers.create!(name: 'bad guy', personality: 240, friendship_level: , dream_home: )
+dog_park.villagers.create!(name: 'Cherry', personality: "big sister", friendship_level: , dream_home: true)
+dog_park.villagers.create!(name: 'Portia', personality: "snooty", friendship_level: 1, dream_home: false)
 
-cat_cafe.villagers.create!(name: 'Someone Great', personality: 500, friendship_level: , dream_home: )
-cat_cafe.villagers.create!(name: 'I Can Change', personality: 640, friendship_level: , dream_home: )
+cat_cafe.villagers.create!(name: 'Stinky', personality: "jock", friendship_level: 1, dream_home: false)
+cat_cafe.villagers.create!(name: 'Bob', personality: "lazy", friendship_level: 1, dream_home: )
