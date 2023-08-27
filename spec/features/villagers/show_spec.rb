@@ -90,7 +90,7 @@ RSpec.describe "Villagers Show" do
     expect(page).to have_content(@portia.dream_home)
     expect(page).to have_content(@portia.island_id)
     
-    visit "/villagers/#{@portia.id}"
+    visit "/villagers/#{@stinky.id}"
 
     expect(page).to have_content(@stinky.name)
     expect(page).to have_content(@stinky.personality)
