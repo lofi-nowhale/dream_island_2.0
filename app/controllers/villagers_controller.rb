@@ -11,7 +11,7 @@ class VillagersController < ApplicationController
     villager = Villager.new({
       name: params[:name],
       type: params[:type],
-      friendship_level: params[:frienship_level]
+      friendship_level: params[:friendship_level],
       dream_home: params[:dream_home]
     })
   end
