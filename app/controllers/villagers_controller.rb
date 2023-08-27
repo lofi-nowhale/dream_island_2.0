@@ -1,6 +1,6 @@
 class VillagersController < ApplicationController
   def index 
-    @villagers = ["Villager 1", "Villager 2", "Villager 3"]
+    @villagers = Villager.all
   end
 
   def new
@@ -10,7 +10,7 @@ class VillagersController < ApplicationController
   def create
     villager = Villager.new({
       name: params[:name],
-      type: params[:type],
+      personality: params[:personality],
       friendship_level: params[:friendship_level],
       dream_home: params[:dream_home]
     })
