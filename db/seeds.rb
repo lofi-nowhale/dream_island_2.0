@@ -28,7 +28,7 @@ phoebe = flamingo_flamboyance.villagers.create!(name: 'Phoebe', personality: "bi
 yuka = koala_colony.villagers.create!(name: 'Yuka', personality: "snooty", friendship_level: 4, dream_home: true)
 gonzon = koala_colony.villagers.create!(name: 'Gonzo', personality: "cranky", friendship_level: 1, dream_home: false)
 
-cherry = dog_park.villagers.create!(name: 'Cherry', personality: "big sister", friendship_level: , dream_home: true)
+cherry = dog_park.villagers.create!(name: 'Cherry', personality: "big sister", friendship_level: 4, dream_home: true)
 portia = dog_park.villagers.create!(name: 'Portia', personality: "snooty", friendship_level: 1, dream_home: false)
 
 stinky = cat_cafe.villagers.create!(name: 'Stinky', personality: "jock", friendship_level: 1, dream_home: false)
