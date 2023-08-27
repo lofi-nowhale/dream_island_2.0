@@ -10,7 +10,7 @@ RSpec.describe 'Villager show' do
     load_test_data
   end
 
-  it "can show each Villager and their attributes" do 
+  it "can list each Villager and their attributes" do 
     visit "/villagers"
 
     expect(page).to have_content(@drake.name)
@@ -64,5 +64,18 @@ RSpec.describe 'Villager show' do
     expect(page).to have_content(@portia.dream_home)
     expect(page).to have_content(@stinky.dream_home)
     expect(page).to have_content(@bob.dream_home)
+    
+    expect(page).to have_content(@drake.island_id)
+    expect(page).to have_content(@bill.island_id)
+    expect(page).to have_content(@beardo.island_id)
+    expect(page).to have_content(@megan.island_id)
+    expect(page).to have_content(@flora.island_id)
+    expect(page).to have_content(@phoebe.island_id)
+    expect(page).to have_content(@yuka.island_id)
+    expect(page).to have_content(@gonzo.island_id)
+    expect(page).to have_content(@cherry.island_id)
+    expect(page).to have_content(@portia.island_id)
+    expect(page).to have_content(@stinky.island_id)
+    expect(page).to have_content(@bob.island_id)
   end
 end
