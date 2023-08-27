@@ -4,7 +4,6 @@ class VillagersController < ApplicationController
   end
 
   def new
-
   end
 
   def create
@@ -14,5 +13,9 @@ class VillagersController < ApplicationController
       friendship_level: params[:friendship_level],
       dream_home: params[:dream_home]
     })
+  end
+
+  def show
+    @villager = Villager.find(params[:id])
   end
 end
