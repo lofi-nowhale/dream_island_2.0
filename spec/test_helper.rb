@@ -23,5 +23,5 @@ def load_test_data
   @dog_park.villagers.create!(name: 'Portia', personality: "snooty", friendship_level: 1, dream_home: false)
   
   @cat_cafe.villagers.create!(name: 'Stinky', personality: "jock", friendship_level: 1, dream_home: false)
-  @cat_cafe.villagers.create!(name: 'Bob', personality: "lazy", friendship_level: 1, dream_home: )``
+  @cat_cafe.villagers.create!(name: 'Bob', personality: "lazy", friendship_level: 1, dream_home: false)
 end
