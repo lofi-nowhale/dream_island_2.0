@@ -1,10 +1,6 @@
 require 'rails_helper'
-#For each parent table
-#As a visitor
-#When I visit '/parents'
-#Then I see the name of each parent record in the system
 
-RSpec.describe 'the Island show page' do
+RSpec.describe 'the Island Index page' do
   before(:each) do
     load_test_data
   end

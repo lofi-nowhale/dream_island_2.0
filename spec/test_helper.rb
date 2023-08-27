@@ -1,4 +1,3 @@
-
 def load_test_data 
   @duck_pond = Island.create!(name: 'Duck Pond', rank: 5, full: false)
   @bear_den = Island.create!(name: 'Bear Den', rank: 3, full: false)
