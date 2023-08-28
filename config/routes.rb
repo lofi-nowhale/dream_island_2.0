@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   post "/villagers", to: "villager#create"
   get "/islands", to: "islands#index"
   get "/islands/:id", to: "islands#show"
+  get "/villagers/:id", to: "villagers#show"
 end

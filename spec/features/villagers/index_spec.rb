@@ -5,7 +5,7 @@
 
 require 'rails_helper'
 
-RSpec.describe 'Villager show' do 
+RSpec.describe 'Villager index' do 
   before (:each) do 
     load_test_data
   end
