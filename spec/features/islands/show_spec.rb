@@ -42,7 +42,5 @@ RSpec.describe 'the Island Show page' do
     expect(page).to have_content(@cat_cafe.name)
     expect(page).to have_content(@cat_cafe.rank)
     expect(page).to have_content(@cat_cafe.full)
-
-    
   end
 end

@@ -15,4 +15,14 @@ RSpec.describe Island, type: :model do
     it { should allow_value(true).for(:full) }
     it { should allow_value(false).for(:full) }
   end
+
+  describe "islands ordered by created - from most recent" do 
+    before (:each) do 
+      load_test_data
+    end
+    it "can return a list of islands ordered by their creation date and time by ascending order" do 
+       
+      expect(Island.sort_by_recently_created).to eq([@cat_cafe, @dog_park, @koala_colony, @flamingo_flamboyance, @bear_den, @duck_pond])
+    end
+  end
 end
