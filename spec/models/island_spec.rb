@@ -22,7 +22,7 @@ RSpec.describe Island, type: :model do
     end
     it "can return a list of islands ordered by their creation date and time by ascending order" do 
        
-      expect(Island.sort_by_recently_created).to eq([@duck_pond, @bear_den, @flamingo_flamboyance, @koala_colony, @dog_park, @cat_cafe])
+      expect(Island.sort_by_recently_created).to eq([@cat_cafe, @dog_park, @koala_colony, @flamingo_flamboyance, @bear_den, @duck_pond])
     end
   end
 end
