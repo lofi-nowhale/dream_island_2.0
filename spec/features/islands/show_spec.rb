@@ -7,7 +7,6 @@ RSpec.describe 'the Island Show page' do
 
   it 'shows the Island with the given ID and the attributes for that Island' do 
     visit "/islands/#{@duck_pond.id}"
-    save_and_open_page
     
     expect(page).to have_content(@duck_pond.name)
     expect(page).to have_content(@duck_pond.rank)
