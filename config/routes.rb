@@ -11,5 +11,5 @@ Rails.application.routes.draw do
   get "/islands", to: "islands#index"
   get "/islands/:id", to: "islands#show"
   get "/villagers/:id", to: "villagers#show"
-  get "/islands/:id/villagers", to: "islands/villagers#index"
+  get "/islands/:id/villagers", to: "island_villagers#index"
 end
