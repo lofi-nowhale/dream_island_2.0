@@ -1,0 +1,9 @@
+<h1>Villagers</h1>
+<% @villagers.each do |villager| %>
+  <h2><%= villager.name %></h2>
+  <p>Personality: <%= villager.personality %></p>
+  <p>Friendship Level: <%= villager.friendship_level %></p>
+  <p>Dream Home: <%= villager.dream_home %></p>
+  <p>Island ID: <%= villager.island_id %></p>
+
+ <% end %> 
