@@ -6,6 +6,6 @@ class Island < ApplicationRecord
   validates :full, inclusion: [true, false]
 
   def self.sort_by_recently_created
-    Island.order(:created_at)
+    Island.order(created_at: :desc)
   end
 end
